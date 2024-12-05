@@ -2,7 +2,8 @@
 Built out Music Discovery Application that uses Spotify's API to recommend songs based on user preferences
 
 ### Features:
-- SQL for storing user preferences and playlists.
-- Spotify API for fetching song metadata and audio features.
-- ML model for personalized song recommendations (using collaborative or content-based filtering).
-- Feature to auto-generate playlists and share them.
+- Backend: Flask for API development and communication between frontend, database, and ML modules.
+- Frontend: React for a dynamic and responsive user interface.
+- Database: MySQL for data storage and retrieval.
+- External API: Spotify Web App API for fetching user and track data.
+- ML Engine: Scikit-Learn for simple models and TensorFlow for deep learning.
